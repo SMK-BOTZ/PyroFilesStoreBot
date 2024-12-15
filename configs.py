@@ -19,34 +19,11 @@ class Config(object):
 	BANNED_CHAT_IDS = list(set(int(x) for x in os.environ.get("BANNED_CHAT_IDS", "-1001362659779 -1001255795497").split()))
 	OTHER_USERS_CAN_SAVE_FILE = bool(os.environ.get("OTHER_USERS_CAN_SAVE_FILE", True))
 	ABOUT_BOT_TEXT = f"""
-This is Permanent Files Store Bot!
-Send me any file I will save it in my Database. Also works for channel. Add me to channel as Admin with Edit Permission, I will add Save Uploaded File in Channel & add Sharable Button Link.
-
-🤖 **My Name:** [Files Store Bot](https://t.me/{BOT_USERNAME})
-
-📝 **Language:** [Python3](https://www.python.org)
-
-📚 **Library:** [Pyrogram](https://docs.pyrogram.org)
-
-📡 **Hosted on:** [Heroku](https://heroku.com)
-
-🧑🏻‍💻 **Developer:** @AbirHasan2005
-
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
-
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+<b>𝖳𝗁𝗂𝗌 𝖨𝗌 𝖠 𝖯𝖾𝗋𝗆𝖺𝗇𝖾𝗇𝗍 𝖥𝗂𝗅𝖾 𝖲𝖺𝗏𝖾𝗋 𝖡𝗈𝗍. \n\n➜ 𝖲𝖾𝗇𝖽 𝖬𝖾 𝖠𝗇𝗒 𝖥𝗂𝗅𝖾 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗁𝖺𝗋𝖾𝖺𝖻𝗅𝖾 𝖫𝗂𝗇𝗄. \n➜ 𝖶𝗈𝗋𝗄𝗌 𝖨𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈𝗈. \n➜ 𝖠𝗏𝗈𝗂𝖽 𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝖨𝗇𝖿𝗋𝗂𝗇𝗀𝖾𝗆𝖾𝗇𝗍. \n\n★ 𝗔𝗯𝗼𝘂𝘁 𝗙𝗶𝗹𝗲 𝗦𝗮𝘃𝗲𝗿 \n\n๏ 𝖡𝗈𝗍 𝖭𝖺𝗆𝖾 ➜ <a href='https://t.me/TeamLegendSaver_Bot'>ʟᴇɢᴇɴᴅ ꜱᴀᴠᴇʀ ʙᴏᴛ</a> \n๏ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 ➜ <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a> \n๏ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 ➜ <a href='https://pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> \n\n☆ 𝗢𝘄𝗻𝗲𝗿 ~ <a href='https://t.me/Itz_Shixnu'>ɪᴛᴢ ꜱʜɪxɴᴜ</a>🥤 \n☆ 𝗝𝗼𝗶𝗻 ~ <a href='https://t.me/Team_Legend_Official'>ᴛᴇᴀᴍ ʟᴇɢᴇɴᴅ ᴏꜰꜰɪᴄɪᴀʟ</a>🥤</b>
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
-
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
-
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
-"""
+<b>𝖳𝗁𝗂𝗌 𝖨𝗌 𝖠 𝖯𝖾𝗋𝗆𝖺𝗇𝖾𝗇𝗍 𝖥𝗂𝗅𝖾 𝖲𝖺𝗏𝖾𝗋 𝖡𝗈𝗍. \n\n➜ 𝖲𝖾𝗇𝖽 𝖬𝖾 𝖠𝗇𝗒 𝖥𝗂𝗅𝖾 𝖳𝗈 𝖦𝖾𝗍 𝖲𝗁𝖺𝗋𝖾𝖺𝖻𝗅𝖾 𝖫𝗂𝗇𝗄. \n➜ 𝖶𝗈𝗋𝗄𝗌 𝖨𝗇 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 𝖳𝗈𝗈. \n➜ 𝖠𝗏𝗈𝗂𝖽 𝖢𝗈𝗉𝗒𝗋𝗂𝗀𝗁𝗍 𝖨𝗇𝖿𝗋𝗂𝗇𝗀𝖾𝗆𝖾𝗇𝗍. \n\n★ 𝗔𝗯𝗼𝘂𝘁 𝗙𝗶𝗹𝗲 𝗦𝗮𝘃𝗲𝗿 \n\n๏ 𝖡𝗈𝗍 𝖭𝖺𝗆𝖾 ➜ <a href='https://t.me/TeamLegendSaver_Bot'>ʟᴇɢᴇɴᴅ ꜱᴀᴠᴇʀ ʙᴏᴛ</a> \n๏ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 ➜ <a href='https://www.python.org/'>ᴘʏᴛʜᴏɴ</a> \n๏ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 ➜ <a href='https://pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> \n\n☆ 𝗢𝘄𝗻𝗲𝗿 ~ <a href='https://t.me/Itz_Shixnu'>ɪᴛᴢ ꜱʜɪxɴᴜ</a>🥤 \n☆ 𝗝𝗼𝗶𝗻 ~ <a href='https://t.me/Team_Legend_Official'>ᴛᴇᴀᴍ ʟᴇɢᴇɴᴅ ᴏꜰꜰɪᴄɪᴀʟ</a>🥤</b>"""
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+<b> 𝗛𝗲𝘆 , [{}](tg://user?id={}) ✨️ \n\n𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝗧𝗼 𝗧𝗲𝗮𝗺 𝗟𝗲𝗴𝗲𝗻𝗱 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 ❤️⚡️ \n━━━━━━━━━━━ ☆ ━━━━━━━━━━━ \n➥ 𝗣𝗿𝗼𝘃𝗶𝗱𝗲𝘀 𝗙𝗿𝗲𝗲 𝗦𝘁𝘂𝗱𝘆 𝗠𝗮𝘁𝗲𝗿𝗶𝗮𝗹𝘀 📚 \n𝗙𝗼𝗿 𝗡𝗘𝗘𝗧 , 𝗝𝗘𝗘 , 𝗕𝗢𝗔𝗥𝗗𝗦 & 𝗖𝗨𝗘𝗧 🔥 \n━━━━━━━━━━━ ☆ ━━━━━━━━━━━ \n➥ 𝗜𝗙 𝗨 𝗟𝗶𝗸𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 , 𝗠𝘂𝘀𝘁 𝗦𝗵𝗮𝗿𝗲 𝗧𝗵𝗶𝘀 𝗕𝗼𝘁 👀❤️ #𝗧𝗘𝗔𝗠_𝗟𝗘𝗚𝗘𝗡𝗗_𝗢𝗙𝗙𝗜𝗖𝗜𝗔𝗟 ⚜️ \n━━━━━━━━━━━ ☆ ━━━━━━━━━━━ \n➥ 𝗠𝗮𝗱𝗲 𝗕𝘆 ➤ @Itz_Shixnu 🥤 \n➥ 𝗠𝘂𝘀𝘁 𝗝𝗼𝗶𝗻 ➤ @TeamLegend_Backup ✨️ \n ━━━━━━━━━━━ ☆ ━━━━━━━━━━━</b>
 
-Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
 """
