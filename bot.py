@@ -74,12 +74,16 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Team_Legend_Official')
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data = "aboutbot"), 
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/Itz_Shixnu'),
+                    InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data = "gotohome")
+                    ],
+                    [
+                    InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/TeamLegend_Backup'),
+                    InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/TeamLegendOfficial_bot')
                     ]
                 ]
             )
@@ -314,12 +318,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
-                    ],
-                    [
-                        InlineKeyboardButton("Go Home", callback_data="gotohome"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                        InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ", url='https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot'),
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ 🥀", callback_data = "gotohome")
                     ]
                 ]
             )
@@ -332,12 +332,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
-                    ],
-                    [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("Go Home", callback_data="gotohome")
+                        InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ", url='https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot'),
+                        InlineKeyboardButton("ᴄʟᴏꜱᴇ 🥀", callback_data = "gotohome")
                     ]
                 ]
             )
@@ -350,12 +346,16 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/JoinOT"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                    InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ", url='https://t.me/Team_Legend_Official')
                     ],
                     [
-                        InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-                        InlineKeyboardButton("About Dev", callback_data="aboutdevs")
+                    InlineKeyboardButton("ᴀʙᴏᴜᴛ ʙᴏᴛ", callback_data = "aboutbot"), 
+                    InlineKeyboardButton("ᴅᴇᴠᴇʟᴏᴘᴇʀ", url='https://t.me/Itz_Shixnu'),
+                    InlineKeyboardButton("ᴄʟᴏꜱᴇ", callback_data = "gotohome")
+                    ],
+                    [
+                    InlineKeyboardButton("ʙᴀᴄᴋᴜᴘ ᴄʜᴀɴɴᴇʟ", url='https://t.me/TeamLegend_Backup'),
+                    InlineKeyboardButton("ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ", url='https://t.me/TeamLegendOfficial_bot')
                     ]
                 ]
             )
@@ -383,10 +383,14 @@ async def button(bot: Client, cmd: CallbackQuery):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                                InlineKeyboardButton("˹ Tᴇᴀᴍ Lᴇɢᴇɴᴅ ✘ Eᴅᴜᴄᴀᴛɪᴏɴ ˼ ⚡️", url = "https://t.me/Team_Legend_Official")
+                            ],[
+                                InlineKeyboardButton("˹ Tᴇᴀᴍ Lᴇɢᴇɴᴅ ✘ Bᴀᴄᴋᴜᴘ ˼ ❤️", url=invite_link.invite_link)
+                            ],[
+                                InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ 👨🏻‍💻", url = "https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot")
                             ],
                             [
-                                InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshmeh")
+                                InlineKeyboardButton("❤️ ᴛʀʏ ᴀɢᴀɪɴ ⚡️", callback_data="refreshmeh")
                             ]
                         ]
                     )
@@ -394,7 +398,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/JoinOT).",
+                    text="Something went Wrong. Contact my [Support Group](https://t.me/Team_Legend_Official).",
                     disable_web_page_preview=True
                 )
                 return
