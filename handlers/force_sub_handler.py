@@ -49,10 +49,14 @@ async def handle_force_sub(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🤖 Join Updates Channel", url=invite_link.invite_link)
+                    InlineKeyboardButton("˹ Tᴇᴀᴍ Lᴇɢᴇɴᴅ ✘ Eᴅᴜᴄᴀᴛɪᴏɴ ˼ ⚡️", url = "https://t.me/Team_Legend_Official")
+                    ],[
+                    InlineKeyboardButton("˹ Tᴇᴀᴍ Lᴇɢᴇɴᴅ ✘ Bᴀᴄᴋᴜᴘ ˼ ❤️", url=invite_link.invite_link)
+                    ],[
+                    InlineKeyboardButton("ꜱʜᴀʀᴇ ᴛʜɪꜱ ʙᴏᴛ 👨🏻‍💻", url = "https://telegram.me/share/url?url=https://t.me/LegendFileSaver_Bot")
                     ],
                     [
-                        InlineKeyboardButton("🔄 Refresh 🔄", callback_data="refreshForceSub")
+                    InlineKeyboardButton("❤️ ᴛʀʏ ᴀɢᴀɪɴ ⚡️", callback_data="refreshmeh")
                     ]
                 ]
             )
